@@ -1,6 +1,10 @@
-import logo from "./assets/images/airbnb-logo.png";
+import logo from "./assets/images/fox-logo.png";
 import "./Navbar.css";
 
 export default function Navbar() {
-  return <img src={logo} />;
+  return (
+    <nav>
+      <img src={logo} />
+    </nav>
+  );
 }
